@@ -79,8 +79,9 @@ a {
 @media (max-width: 450px ) {
   .form {
   background-color: #ffffff;
-  max-width: 400px;
+  height: 100%;
   margin: 0px;
+  margin-bottom: -10px;
   padding: 40px;
   border-radius: 0px;
 }
@@ -95,6 +96,20 @@ input[type="submit"] {
 }
 a{
   display: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: -3px;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  outline: none;
+}
+#errorMessage{
+margin-top:10px ;
 }
   
 }
