@@ -76,4 +76,26 @@ a {
   color: red;
   font-size: 10px;
 }
+@media (max-width: 450px ) {
+  .form {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 0px;
+  padding: 40px;
+  border-radius: 0px;
+}
+
+input[type="submit"] {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto ;
+   max-width: 30%;
+   width: 50px;
+}
+a{
+  display: none;
+}
+  
+}
 
